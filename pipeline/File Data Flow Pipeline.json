@@ -21,7 +21,7 @@
 							"type": "SftpReadSettings",
 							"recursive": false,
 							"wildcardFileName": {
-								"value": "@{pipeline().parameters.FileName}",
+								"value": "@{pipeline().parameters.FileNameIn}",
 								"type": "Expression"
 							}
 						},
@@ -474,9 +474,13 @@
 		],
 		"concurrency": 1,
 		"parameters": {
-			"FileName": {
+			"FileNameIn": {
 				"type": "string",
 				"defaultValue": "AIG.CSV"
+			},
+			"FileNameOut": {
+				"type": "string",
+				"defaultValue": "AIG Out.csv"
 			}
 		},
 		"annotations": []
