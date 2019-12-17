@@ -1,0 +1,187 @@
+{
+	"name": "DelimitedTextIn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Dev Sftp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "SftpLocation",
+				"folderPath": "/AzureDataFactory"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Products",
+				"type": "String"
+			},
+			{
+				"name": "Holiwi",
+				"type": "String"
+			},
+			{
+				"name": "Market",
+				"type": "String"
+			},
+			{
+				"name": "Date Aired",
+				"type": "String"
+			},
+			{
+				"name": "Time Aired",
+				"type": "String"
+			},
+			{
+				"name": "Length",
+				"type": "String"
+			},
+			{
+				"name": "DP Name",
+				"type": "String"
+			},
+			{
+				"name": "Days",
+				"type": "String"
+			},
+			{
+				"name": "Times",
+				"type": "String"
+			},
+			{
+				"name": "Phone Aired",
+				"type": "String"
+			},
+			{
+				"name": "Creative Name",
+				"type": "String"
+			},
+			{
+				"name": "Program Aired",
+				"type": "String"
+			},
+			{
+				"name": "ABAN",
+				"type": "String"
+			},
+			{
+				"name": "CALL",
+				"type": "String"
+			},
+			{
+				"name": "TRANZ HN C",
+				"type": "String"
+			},
+			{
+				"name": "LEADS HNDL",
+				"type": "String"
+			},
+			{
+				"name": "WARM TRS",
+				"type": "String"
+			},
+			{
+				"name": "Outbound",
+				"type": "String"
+			},
+			{
+				"name": "Female",
+				"type": "String"
+			},
+			{
+				"name": "Male",
+				"type": "String"
+			},
+			{
+				"name": "REV PREM",
+				"type": "String"
+			},
+			{
+				"name": "CC PYMT",
+				"type": "String"
+			},
+			{
+				"name": "EFT",
+				"type": "String"
+			},
+			{
+				"name": "DEFR EFT",
+				"type": "String"
+			},
+			{
+				"name": "CUST EXIST",
+				"type": "String"
+			},
+			{
+				"name": "QUOTE SHOP",
+				"type": "String"
+			},
+			{
+				"name": "REF COMP",
+				"type": "String"
+			},
+			{
+				"name": "NOT REQ",
+				"type": "String"
+			},
+			{
+				"name": "NEEDS OTHR",
+				"type": "String"
+			},
+			{
+				"name": "NOT ELIG",
+				"type": "String"
+			},
+			{
+				"name": "REF OUT",
+				"type": "String"
+			},
+			{
+				"name": "PAPER APP",
+				"type": "String"
+			},
+			{
+				"name": "REF NI",
+				"type": "String"
+			},
+			{
+				"name": "REF CA",
+				"type": "String"
+			},
+			{
+				"name": "INQ/SUPRT",
+				"type": "String"
+			},
+			{
+				"name": "SALE",
+				"type": "String"
+			},
+			{
+				"name": "TEST",
+				"type": "String"
+			},
+			{
+				"name": "LVOPS HN C",
+				"type": "String"
+			},
+			{
+				"name": "$ SPENT",
+				"type": "String"
+			},
+			{
+				"name": "RP50",
+				"type": "String"
+			},
+			{
+				"name": "IP50",
+				"type": "String"
+			}
+		]
+	}
+}
