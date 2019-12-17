@@ -1,0 +1,23 @@
+{
+	"name": "AKV Dev SFTP",
+	"properties": {
+		"annotations": [],
+		"type": "Sftp",
+		"typeProperties": {
+			"host": "tztftp100.cloudapp.net",
+			"port": 22,
+			"skipHostKeyValidation": true,
+			"authenticationType": "Basic",
+			"userName": "snaplogic",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "DevSFTP",
+				"secretVersion": ""
+			}
+		}
+	}
+}
