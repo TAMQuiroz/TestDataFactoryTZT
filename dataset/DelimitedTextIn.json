@@ -2,7 +2,7 @@
 	"name": "DelimitedTextIn",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "Dev Sftp",
+			"referenceName": "AKV Dev Sftp",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
